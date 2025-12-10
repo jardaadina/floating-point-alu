@@ -1,45 +1,54 @@
-# alu-in-virgula-flotanta
-Acest proiect are ca scop proiectarea și implementarea unei unități aritmetico-logice (ALU) care poate efectua operații de adunare și înmulțire pentru numere în virgulă flotantă conform standardului IEEE 754. Unitatea ALU este proiectată utilizând limbajul de descriere hardware VHDL și simulată pe platforma Xilinx. De asemenea, este implementată pe un dispozitiv FPGA pentru a evalua performanța acesteia în termeni de consum de resurse și viteză de execuție.
+# Floating Point ALU (IEEE 754)
 
-Scopul Proiectului
-Proiectul urmărește dezvoltarea unei unități aritmetico-logice (ALU) eficiente și precise pentru operațiile de adunare și înmulțire a numerelor în virgulă flotantă, care să fie aplicabilă în sisteme de calcul ce necesită un nivel ridicat de precizie și optimizare a procesării datelor numerice complexe.
+This project aims to design and implement an Arithmetic Logic Unit (ALU) capable of performing addition and multiplication operations for floating-point numbers, according to the **IEEE 754** standard.
 
-## Structura Proiectului
-Introducere
-Context și obiective ale proiectului.
-Studiu Bibliografic
-Prezentarea unității aritmetico-logice (ALU).
-Soluții pentru erorile de trunchiere și precizia calculelor.
-Reprezentarea numerelor în virgulă flotantă și formatul IEEE 754.
-Detalii despre algoritmii de adunare și înmulțire în virgulă flotantă.
+The unit is designed using **VHDL** and simulated on the **Xilinx** platform. It is also implemented on an **FPGA** device to evaluate its performance in terms of resource consumption and execution speed.
 
-## Analiza
-Algoritmul de adunare și înmulțire.
-Diagrame de flux pentru algoritmi.
 
-## Proiectare
 
-Schema bloc a arhitecturii unității ALU.
+## Project Goal
+To develop an efficient and precise ALU for floating-point addition and multiplication. This module is designed for computing systems that require high precision and optimized processing of complex numerical data.
 
-## Implementare
+## Project Structure
 
-Detalii despre implementarea adunării și înmulțirii în virgulă flotantă folosind VHDL.
+### Introduction
+* Context and project objectives.
 
-## Testare și Validare
+### Literature Review
+* Overview of the Arithmetic Logic Unit (ALU).
+* Solutions for truncation errors and calculation precision.
+* Representation of floating-point numbers and the IEEE 754 format.
+* Details on floating-point addition and multiplication algorithms.
 
-Testarea pe FPGA a funcționării unității ALU.
+### Analysis
+* Algorithms for addition and multiplication.
+* Flowcharts for the algorithms.
 
-## Concluzii
+### Design
+* Block diagram of the ALU architecture.
 
-Rezultatele obținute din testare și analiza performanței unității ALU.
-Tehnologii și Instrumente Utilizate
-VHDL: Limbajul de descriere hardware utilizat pentru crearea unității ALU.
-Xilinx: Platforma pentru simulare și implementare pe FPGA.
-FPGA: Dispozitivul hardware pe care va fi implementat ALU-ul pentru testare.
 
-## Testare
-Testele au fost realizate pentru a verifica:
 
-Corectitudinea operațiilor de adunare și înmulțire.
-Comportamentul unității ALU în condiții extreme (overflow, underflow, NaN, Infinit).
-Performanța în ceea ce privește utilizarea resurselor și viteza de execuție.
+[Image of ALU block diagram]
+
+
+### Implementation
+* Details on the VHDL implementation of floating-point addition and multiplication.
+
+### Testing and Validation
+* FPGA testing of the ALU functionality.
+
+### Conclusions
+* Results obtained from testing and performance analysis.
+
+## Technologies and Tools
+* **VHDL:** The hardware description language used to create the ALU.
+* **Xilinx:** Platform for simulation and implementation.
+* **FPGA:** The hardware device used to test the physical implementation.
+
+## Testing
+Tests were conducted to verify:
+
+* **Correctness:** Ensuring addition and multiplication operations are accurate.
+* **Corner Cases:** The behavior of the ALU under extreme conditions (Overflow, Underflow, NaN, Infinity).
+* **Performance:** Resource utilization and execution speed.
